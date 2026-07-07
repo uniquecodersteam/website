@@ -1,0 +1,41 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Futuristic abstract neural network background",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-1/1920/1080",
+      "imageHint": "futuristic neural network"
+    },
+    {
+      "id": "ai-agent",
+      "description": "Conceptual AI agent interaction",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-2/800/600",
+      "imageHint": "artificial intelligence"
+    },
+    {
+      "id": "full-stack",
+      "description": "Clean code and modern UI interface",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-3/800/600",
+      "imageHint": "software development"
+    },
+    {
+      "id": "whatsapp-automation",
+      "description": "Mobile screen with chat automation",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-4/800/600",
+      "imageHint": "chat automation"
+    },
+    {
+      "id": "case-study-1",
+      "description": "Enterprise dashboard ROI results",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-5/1200/800",
+      "imageHint": "data dashboard"
+    },
+    {
+      "id": "case-study-2",
+      "description": "Innovative mobile app startup MVP",
+      "imageUrl": "https://picsum.photos/seed/uniquecoders-6/1200/800",
+      "imageHint": "mobile app"
+    }
+  ]
+}
