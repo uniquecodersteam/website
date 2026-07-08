@@ -25,7 +25,7 @@ export function AiDiscovery() {
 
     // Artificial delay for "processing" feel
     setTimeout(() => {
-      const whatsappNumber = "8801405618060";
+      const whatsappNumber = "8801885975808";
       const encodedMsg = encodeURIComponent(currentMsg);
       window.location.href = `https://wa.me/${whatsappNumber}?text=${encodedMsg}`;
     }, 1200);

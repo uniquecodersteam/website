@@ -27,15 +27,17 @@ export function InquiryFlow() {
     e.preventDefault();
     setLoading(true);
     
-    // Simulate submission to contact@uniquecoders.com
-    console.log("Sending inquiry to contact@uniquecoders.com", formData);
+    const message = `Hello Unique Coders, I would like to discuss a project.\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Project Type:* ${formData.projectType}\n*Details:* ${formData.details}`;
+    const whatsappNumber = "8801885975808";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
-    await new Promise(r => setTimeout(r, 1500));
     setLoading(false);
-    setStep(4); // Success step
+    window.open(whatsappUrl, "_blank");
+    
+    setStep(4);
     toast({
-      title: "Inquiry Sent to contact@uniquecoders.com",
-      description: "Our technical team has received your brief.",
+      title: "Redirecting to WhatsApp",
+      description: "Please send the pre-filled message to our team.",
     });
   };
 
@@ -152,9 +154,9 @@ export function InquiryFlow() {
                 <div className="w-20 h-20 bg-primary/20 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
                   <CheckCircle2 className="w-10 h-10" />
                 </div>
-                <h2 className="text-3xl font-bold font-headline mb-4 uppercase">Inquiry Received</h2>
+                <h2 className="text-3xl font-bold font-headline mb-4 uppercase">Redirecting to WhatsApp</h2>
                 <p className="text-muted-foreground mb-8">
-                  Your vision has been sent to <strong>contact@uniquecoders.com</strong>. A technical strategist will reach out within 24 hours.
+                  You are being redirected to WhatsApp to complete your inquiry. Our technical strategist will assist you there.
                 </p>
                 <Button onClick={() => {
                   setFormData({ name: "", email: "", projectType: "", details: "" });

@@ -35,7 +35,7 @@ const projects = [
 
 export function CaseStudies() {
   const handleContactWhatsApp = (title: string) => {
-    const whatsappNumber = "8801405618060";
+    const whatsappNumber = "8801885975808";
     const msg = encodeURIComponent(`Hi, I'm interested in the ${title} case study.`);
     window.location.href = `https://wa.me/${whatsappNumber}?text=${msg}`;
   };
@@ -52,9 +52,7 @@ export function CaseStudies() {
               A glimpse into the ROI-driven builds we've delivered for visionary clients.
             </p>
           </div>
-          <button className="text-sm font-bold uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors border-b-2 border-primary/20 pb-1">
-            View All Studies <ArrowUpRight className="w-4 h-4" />
-          </button>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

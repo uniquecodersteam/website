@@ -16,7 +16,7 @@ const projects = [
     stats: "85% Automation Rate",
     image: "https://picsum.photos/seed/p1/1200/800",
     tech: ["Genkit", "Next.js", "Firebase", "WhatsApp API"],
-    whatsappNumber: "8801405618060"
+    whatsappNumber: "8801885975808"
   },
   {
     id: "nova-retail",
@@ -26,7 +26,7 @@ const projects = [
     stats: "2.4x Conversion Growth",
     image: "https://picsum.photos/seed/p2/1200/800",
     tech: ["React", "PostgreSQL", "Tailwind", "Stripe"],
-    whatsappNumber: "8801405618060"
+    whatsappNumber: "8801885975808"
   },
   {
     id: "vault-finance",
@@ -36,7 +36,7 @@ const projects = [
     stats: "$2M+ Asset Throughput",
     image: "https://picsum.photos/seed/p3/1200/800",
     tech: ["Next.js", "Web3.js", "Redis", "Framer Motion"],
-    whatsappNumber: "8801405618060"
+    whatsappNumber: "8801885975808"
   },
   {
     id: "nexus-chat",
@@ -46,13 +46,13 @@ const projects = [
     stats: "1.2k Leads Qualified/Mo",
     image: "https://picsum.photos/seed/p4/1200/800",
     tech: ["Node.js", "OpenAI", "Twilio", "Supabase"],
-    whatsappNumber: "8801405618060"
+    whatsappNumber: "8801885975808"
   }
 ];
 
 export function Portfolio() {
   const handleContactWhatsApp = (projectTitle: string) => {
-    const whatsappNumber = "8801405618060";
+    const whatsappNumber = "8801885975808";
     const msg = encodeURIComponent(`Hi, I'm interested in a project similar to ${projectTitle}.`);
     window.location.href = `https://wa.me/${whatsappNumber}?text=${msg}`;
   };

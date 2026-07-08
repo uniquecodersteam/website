@@ -5,7 +5,7 @@ import { ArrowRight, Sparkles, MessageCircle } from "lucide-react";
 
 export function Hero() {
   const handleValidateClick = () => {
-    const whatsappNumber = "8801405618060";
+    const whatsappNumber = "8801885975808";
     const msg = encodeURIComponent("I would like to validate my business idea.");
     window.location.href = `https://wa.me/${whatsappNumber}?text=${msg}`;
   };
