@@ -9,43 +9,83 @@ import Image from "next/image";
 
 const projects = [
   {
-    id: "eco-stream",
-    title: "EcoStream AI",
-    category: "AI Automation",
-    description: "A comprehensive AI support agent that handles 85% of tier-1 inquiries, saving over 40 hours of manual labor per week for a logistics startup.",
-    stats: "85% Automation Rate",
-    image: "https://picsum.photos/seed/p1/1200/800",
-    tech: ["Genkit", "Next.js", "Firebase", "WhatsApp API"],
-    whatsappNumber: "8801885975808"
-  },
-  {
-    id: "nova-retail",
-    title: "Nova Retail",
+    id: "kamo-privacy",
+    title: "Kamo Privacy Shield",
     category: "Full-Stack Web",
-    description: "High-conversion e-commerce platform with real-time inventory management and predictive analytics for stock forecasting.",
-    stats: "2.4x Conversion Growth",
-    image: "https://picsum.photos/seed/p2/1200/800",
-    tech: ["React", "PostgreSQL", "Tailwind", "Stripe"],
+    description: "A premium, high-performance anti-tracking and privacy protection landing page designed to safeguard digital fingerprints, showcase real-time tracking blocking, and display interactive privacy health metrics.",
+    stats: "100% Privacy Protection",
+    image: "/kamo_privacy_mockup.png",
+    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Lucide React"],
     whatsappNumber: "8801885975808"
   },
   {
-    id: "vault-finance",
-    title: "Vault Finance",
+    id: "grab-eats",
+    title: "Grab & Eats",
+    category: "Full-Stack Web",
+    description: "A premium on-demand food delivery platform featuring real-time tracking, multi-vendor support, and a seamless, high-performance customer experience.",
+    stats: "15 Min Avg Delivery",
+    image: "/grab_eats_mockup.png",
+    tech: ["Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    whatsappNumber: "8801885975808"
+  },
+  {
+    id: "gigsync-automation",
+    title: "GigSync Translator & Refresher",
     category: "Custom Software",
-    description: "Secure asset management dashboard with multi-signature authorization and real-time market data streaming.",
-    stats: "$2M+ Asset Throughput",
-    image: "https://picsum.photos/seed/p3/1200/800",
-    tech: ["Next.js", "Web3.js", "Redis", "Framer Motion"],
+    description: "A professional automation and translation browser extension for freelancers, managing smart refresh timers and real-time client communication on platforms like Fiverr, Upwork, and LinkedIn.",
+    stats: "4.8/5 Avg Rating",
+    image: "/gigsync_automation.png",
+    tech: ["Chrome Extension API", "OpenAI API", "Node.js", "WebSockets"],
     whatsappNumber: "8801885975808"
   },
   {
-    id: "nexus-chat",
-    title: "Nexus Sales Bot",
-    category: "WhatsApp Funnel",
-    description: "An automated sales funnel for WhatsApp that qualifies leads via natural language processing before handing off to human agents.",
-    stats: "1.2k Leads Qualified/Mo",
-    image: "https://picsum.photos/seed/p4/1200/800",
-    tech: ["Node.js", "OpenAI", "Twilio", "Supabase"],
+    id: "skyforge-drones",
+    title: "SkyForge Drones",
+    category: "Full-Stack Web",
+    description: "A premium, high-fidelity drone shop and booking portal with interactive 3D product previews, comprehensive category filters, and a seamless checkout experience.",
+    stats: "99.9% Uptime",
+    image: "/skyforge_drones.png",
+    tech: ["Next.js", "Framer Motion", "Tailwind CSS", "Stripe"],
+    whatsappNumber: "8801885975808"
+  },
+  {
+    id: "ai-tools-directory",
+    title: "AI Tools Directory",
+    category: "Custom Software",
+    description: "A modern directory and ad-promotion platform for cutting-edge AI tools, featuring interactive promotion plans, automated submission flows, and detailed category filtering.",
+    stats: "15k+ Monthly Visitors",
+    image: "/ai_tools_directory.png",
+    tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+    whatsappNumber: "8801885975808"
+  },
+  {
+    id: "homestead-real-estate",
+    title: "Homestead Real Estate",
+    category: "Full-Stack Web",
+    description: "An enterprise-grade property listing and agent dashboard with map integrations, advanced filter grids, and real-time listing updates for modern real estate operations.",
+    stats: "2.5k Listings Live",
+    image: "/real_estate_platform.png",
+    tech: ["Next.js", "Mapbox GL", "Tailwind CSS", "PostgreSQL"],
+    whatsappNumber: "8801885975808"
+  },
+  {
+    id: "rag-pipeline-chatbot",
+    title: "RAG Pipeline & Chatbot",
+    category: "Workflow Automation",
+    description: "An automated n8n workflow connecting Google Drive triggers, Pinecone vector stores, and custom OpenAI-powered AI agents to build a high-performance Retrieval-Augmented Generation (RAG) pipeline for document-based client interactions.",
+    stats: "100% Automated Pipeline",
+    image: "/n8n_rag_pipeline.png",
+    tech: ["n8n", "Pinecone", "OpenAI API", "Google Drive API"],
+    whatsappNumber: "8801885975808"
+  },
+  {
+    id: "ivalidate-mobile-identity",
+    title: "iVALIDATE Mobile Identity",
+    category: "Mobile App",
+    description: "A comprehensive digital identity and decentralized credential verification mobile application, featuring biometric selfie authentication, QR code verification, and secure credential sharing.",
+    stats: "Secure & Instant Verification",
+    image: "/ivalidate_mobile_flow.png",
+    tech: ["React Native", "TypeScript", "Tailwind CSS", "Expo"],
     whatsappNumber: "8801885975808"
   }
 ];
@@ -152,9 +192,13 @@ export function Portfolio() {
           <Button 
             variant="link" 
             className="text-muted-foreground hover:text-primary font-bold tracking-widest uppercase text-xs"
-            onClick={() => handleContactWhatsApp("UniqueCoders Services")}
+            onClick={() => {
+              const whatsappNumber = "8801885975808";
+              const msg = encodeURIComponent("Hey, I am interested to work with you, could you please share me your more work samples?");
+              window.location.href = `https://wa.me/${whatsappNumber}?text=${msg}`;
+            }}
           >
-            Start a project on WhatsApp <ArrowUpRight className="w-4 h-4 ml-1" />
+            View 200 More projects <ArrowUpRight className="w-4 h-4 ml-1" />
           </Button>
         </div>
       </div>

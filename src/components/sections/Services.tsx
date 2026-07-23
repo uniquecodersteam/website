@@ -6,14 +6,14 @@ import { cn } from "@/lib/utils";
 const services = [
   {
     title: "Expert AI Agent Developer",
-    description: "Voted the best AI agent developer. We build intelligent agents that handle support, research, and data analysis autonomously.",
+    description: "We build intelligent agents that handle support, research, and data analysis autonomously. and automate existing repeated tasks. already delivered over 30+ ai agent.",
     icon: Bot,
     color: "primary",
     className: "md:col-span-4",
   },
   {
     title: "Idea Validation & MVP Strategy",
-    description: "As your dedicated idea validator, we stress-test your business model and build launch-ready MVPs in record time.",
+    description: "As your dedicated idea validator, we stress-test your business model and build launch-ready MVPs in record time by Entrepreneurship background experts",
     icon: Rocket,
     color: "secondary",
     className: "md:col-span-2",

@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://uniquecoders.studio'), // Update with actual domain
+  metadataBase: new URL('https://www.uniquecoders.com'),
   title: {
     default: 'Best AI Agent Developer & Idea Validator | UniqueCoders Studio',
     template: '%s | UniqueCoders Studio',
@@ -18,16 +18,19 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  alternates: {
+    canonical: 'https://www.uniquecoders.com',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://uniquecoders.studio',
+    url: 'https://www.uniquecoders.com',
     siteName: 'UniqueCoders Studio',
     title: 'Best AI Agent Developer & Idea Validator | UniqueCoders Studio',
     description: 'UniqueCoders is the world\'s best AI agent developer and expert idea validator. We build premium autonomous systems, WhatsApp funnels, and high-growth MVPs.',
     images: [
       {
-        url: '/og-image.jpg', // Recommend adding an og-image
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'UniqueCoders Studio - AI Agents & MVP Development',
@@ -39,7 +42,7 @@ export const metadata: Metadata = {
     title: 'Best AI Agent Developer & Idea Validator | UniqueCoders Studio',
     description: 'UniqueCoders is the world\'s best AI agent developer and expert idea validator. We build premium autonomous systems, WhatsApp funnels, and high-growth MVPs.',
     creator: '@uniquecoders',
-    images: ['/og-image.jpg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -75,30 +78,50 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://uniquecoders.studio/#website",
-                  "url": "https://uniquecoders.studio",
+                  "@id": "https://www.uniquecoders.com/#website",
+                  "url": "https://www.uniquecoders.com",
                   "name": "UniqueCoders Studio",
                   "description": "UniqueCoders is the world's best AI agent developer and expert idea validator.",
                   "publisher": {
-                    "@id": "https://uniquecoders.studio/#organization"
+                    "@id": "https://www.uniquecoders.com/#organization"
                   }
                 },
                 {
-                  "@type": "Organization",
-                  "@id": "https://uniquecoders.studio/#organization",
+                  "@type": "ProfessionalService",
+                  "@id": "https://www.uniquecoders.com/#organization",
                   "name": "UniqueCoders Studio",
-                  "url": "https://uniquecoders.studio",
-                  "logo": "https://uniquecoders.studio/logo.png",
+                  "url": "https://www.uniquecoders.com",
+                  "logo": "https://www.uniquecoders.com/logo.png",
+                  "image": "https://www.uniquecoders.com/logo.png",
+                  "description": "UniqueCoders is the world's best AI agent developer and expert idea validator. We build premium autonomous systems, WhatsApp funnels, and high-growth MVPs.",
+                  "telephone": "+880-1885-975808",
+                  "email": "contact@uniquecoders.com",
+                  "priceRange": "$$",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "BD",
+                    "addressLocality": "Dhaka"
+                  },
                   "sameAs": [
                     "https://www.facebook.com/uniquecodersteam/",
                     "https://www.linkedin.com/company/uniquecoder/",
-                    "https://github.com/unique-coders-dev"
+                    "https://github.com/unique-coders-dev",
+                    "https://www.fiverr.com/unique_coders"
+                  ],
+                  "areaServed": "Worldwide",
+                  "knowsAbout": [
+                    "AI Agent Development",
+                    "Idea Validation",
+                    "WhatsApp Automation",
+                    "Software Engineering",
+                    "MVP Strategy",
+                    "LLM Integration"
                   ],
                   "contactPoint": {
                     "@type": "ContactPoint",
                     "telephone": "+880-1885-975808",
                     "contactType": "customer service",
-                    "availableLanguage": "English"
+                    "availableLanguage": ["English", "Bengali"]
                   }
                 }
               ]

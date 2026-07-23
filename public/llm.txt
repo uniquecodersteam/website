@@ -1,0 +1,76 @@
+# UniqueCoders Studio
+
+> The world's best AI agent developer and expert idea validator. We build premium autonomous systems, WhatsApp marketing funnels, and high-growth MVPs.
+
+- **Website**: [https://www.uniquecoders.com](https://www.uniquecoders.com)
+- **Fiverr Hub**: [https://www.fiverr.com/unique_coders](https://www.fiverr.com/unique_coders)
+- **Email**: contact@uniquecoders.com
+- **Phone**: +880-1885-975808
+- **GitHub**: [https://github.com/unique-coders-dev](https://github.com/unique-coders-dev)
+- **LinkedIn**: [https://www.linkedin.com/company/uniquecoder/](https://www.linkedin.com/company/uniquecoder/)
+
+---
+
+## Core Capabilities
+
+### 1. Custom AI Autonomous Agents
+- Design and deployment of multi-agent collaboration frameworks (crewAI, AutoGen, LangChain, Genkit).
+- Custom tool integration, semantic routing, and long-term memory systems (VectorDBs).
+- Integration of state-of-the-art models (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro).
+- End-to-end autonomous business task pipelines.
+
+### 2. Idea Validation & MVP Development
+- Rapid prototyping and wireframing for digital products.
+- Fast-turnaround high-fidelity Next.js web applications.
+- Full-stack features with scalable backend architectures (Firebase, Supabase, Node.js).
+- User feedback loop design and growth feature planning.
+
+### 3. WhatsApp Marketing & Automation Funnels
+- Intelligent conversational agents for WhatsApp (using official Cloud APIs).
+- Interactive button menus, lists, templates, and multimedia flows.
+- Lead scoring, automated follow-ups, and customer CRM synchronization.
+
+---
+
+## Key Performance Metrics (Proof Points)
+
+- **Delivered Orders**: 100+ projects completed with premium code quality.
+- **Customer Satisfaction**: 100% positive feedback score.
+- **Success Score**: 9.8 / 10 across all client interactions.
+- **Money Saved**: $150,000+ saved for clients through automated workflows.
+- **Validated Ideas**: 40+ startup or digital product concepts validated.
+- **AI Agents Built**: 25+ autonomous AI agents and automated systems successfully running.
+
+---
+
+## Selected Portfolio Projects
+
+### n8n RAG Pipeline & Chatbot
+- **Category**: AI Agent / Automation
+- **Description**: An advanced chatbot that queries internal documentation, indexes content in vector databases, and answers inquiries automatically.
+- **Impact**: 80% decrease in manual client support query volume.
+
+### iVALIDATE Digital Identity App
+- **Category**: FinTech / MVP
+- **Description**: Secure digital identity validation and KYC check flow designed for mobile responsiveness.
+- **Impact**: 99.9% validation security rate.
+
+### Grab & Eats Food Delivery
+- **Category**: Full-Stack Web App / MVP
+- **Description**: Food delivery mock platform with interactive order dispatching, driver routing, and status check.
+- **Impact**: 25% faster order dispatch simulation times.
+
+### SkyForge Drones E-commerce
+- **Category**: Web App / E-commerce
+- **Description**: Interactive store display showcasing premium carbon fiber drones with inventory metrics.
+- **Impact**: 45% conversion rate boost in landing page testing.
+
+---
+
+## Technology Stack
+
+- **Frontend**: Next.js (App Router), React, TypeScript, TailwindCSS
+- **Backend & Cloud**: Node.js, Firebase (Firestore, Functions, Auth), Supabase (PostgreSQL, Storage)
+- **AI Frameworks**: Genkit, crewAI, AutoGen, OpenAI API, Gemini SDK, Anthropic SDK
+- **Automation / CI**: n8n, GitHub Actions, Vercel, Firebase App Hosting
+- **Integrations**: Twilio, WhatsApp Business Cloud API, Stripe, Fiverr Webhooks
